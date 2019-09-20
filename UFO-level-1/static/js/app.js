@@ -21,9 +21,9 @@ button.on("click", function(){
 
     filteredData.forEach(r => {
         var row = tbody.append("tr");
-        Object.entried(r).forEach(([key,value]) => {
+        Object.entries(r).forEach(([key,value]) => {
             var cell = row.append("td");
-            cell.tyext(value);
+            cell.text(value);
         });
     });
 });
