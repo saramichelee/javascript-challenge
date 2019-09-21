@@ -19,6 +19,8 @@ button.on("click", function(){
 
     var tbody = d3.select("tbody");
 
+    tbody.html("");
+
     filteredData.forEach(r => {
         var row = tbody.append("tr");
         Object.entries(r).forEach(([key,value]) => {
