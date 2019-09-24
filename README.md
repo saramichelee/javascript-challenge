@@ -1,4 +1,4 @@
-**javascript-challenge
+# javascript-challenge
 
 Filter through all UFO eye-witness reports by date. Any day, any year... find out where the UFO sightings were that day in history.
 
